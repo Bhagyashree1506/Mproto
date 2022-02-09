@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/drawer_layout_ninja"
-    tools:context="com.manage.app.MechanicRegisterActivity"
+    tools:context="com.manage.app.Activities.MechanicRegisterActivity"
     android:fitsSystemWindows="true"
     tools:openDrawer="start">
 
@@ -15,7 +15,7 @@
 
 
     <ScrollView
-        tools:context="com.manage.app.UserProfileActivity"
+        tools:context="com.manage.app.Activities.UserProfileActivity"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         >

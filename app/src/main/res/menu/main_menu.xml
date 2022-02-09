@@ -16,6 +16,11 @@
                     android:title="Mechanic"
                     android:icon="@drawable/ic_mechanic"/>
 
+                <item
+                    android:id="@+id/nav_Manage"
+                    android:title="Manage"
+                    android:icon="@drawable/manage_icon"/>
+
 
 
 

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/drawer_layout_ninja"
-    tools:context="com.manage.app.MainActivity"
+    tools:context="com.manage.app.Activities.CustomerRegisterActivity"
     android:fitsSystemWindows="true"
     tools:openDrawer="start">
 
@@ -22,7 +22,7 @@
 
 
     <ScrollView
-        tools:context="com.manage.app.UserProfileActivity"
+        tools:context="com.manage.app.Activities.UserProfileActivity"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         >
@@ -98,19 +98,7 @@
                 android:padding="10dp"
                 android:orientation="vertical">
 
-                <com.google.android.material.textfield.TextInputLayout
-                    android:id="@+id/FirstNameCustomerRegister"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:hint="First Name"
-                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
 
-                    <com.google.android.material.textfield.TextInputEditText
-                        android:id="@+id/FirstNameRegister"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content" />
-
-                </com.google.android.material.textfield.TextInputLayout>
 
 
 
@@ -118,10 +106,10 @@
 
                 <!--User Name-->
                 <com.google.android.material.textfield.TextInputLayout
-                    android:id="@+id/LastNameCustomerRegister"
+                    android:id="@+id/FullNameCustomerRegister"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:hint="Last Name"
+                    android:hint="Full Name"
 
                     style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
 

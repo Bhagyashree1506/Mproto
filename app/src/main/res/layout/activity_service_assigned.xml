@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/drawer_layout_ninja"
-    tools:context="com.manage.app.ServiceAssignedActivity"
+    tools:context="com.manage.app.Activities.ServiceAssignedActivity"
     android:fitsSystemWindows="true"
     tools:openDrawer="start">
 

@@ -3,7 +3,50 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/--- STUFF ---/Work/Coding/Andriod Studio/Prototype/Manage_Proto/app/src/main/res/drawable-xhdpi/progress_back.xml" value="0.2375" />
+        <entry key="..\:/--- STUFF ---/Work/Coding/Andriod Studio/Prototype/Manage_Proto/app/src/main/res/drawable-xhdpi/rotating_icon.xml" value="0.2375" />
+        <entry key="..\:/--- STUFF ---/Work/Coding/Andriod Studio/Prototype/Manage_Proto/app/src/main/res/drawable/color_cursor.xml" value="0.23958333333333334" />
+        <entry key="..\:/--- STUFF ---/Work/Coding/Andriod Studio/Prototype/Manage_Proto/app/src/main/res/layout/activity_customer.xml" value="0.25" />
+        <entry key="..\:/--- STUFF ---/Work/Coding/Andriod Studio/Prototype/Manage_Proto/app/src/main/res/layout/activity_customer_display.xml" value="0.33" />
+        <entry key="..\:/--- STUFF ---/Work/Coding/Andriod Studio/Prototype/Manage_Proto/app/src/main/res/layout/activity_customer_register.xml" value="0.33" />
+        <entry key="..\:/--- STUFF ---/Work/Coding/Andriod Studio/Prototype/Manage_Proto/app/src/main/res/layout/activity_customer_service.xml" value="0.2171875" />
+        <entry key="..\:/--- STUFF ---/Work/Coding/Andriod Studio/Prototype/Manage_Proto/app/src/main/res/layout/activity_customer_vehicle.xml" value="0.2171875" />
+        <entry key="..\:/--- STUFF ---/Work/Coding/Andriod Studio/Prototype/Manage_Proto/app/src/main/res/layout/activity_edit_customer_details.xml" value="0.25" />
+        <entry key="..\:/--- STUFF ---/Work/Coding/Andriod Studio/Prototype/Manage_Proto/app/src/main/res/layout/activity_edit_tws.xml" value="0.21927083333333333" />
+        <entry key="..\:/--- STUFF ---/Work/Coding/Andriod Studio/Prototype/Manage_Proto/app/src/main/res/layout/activity_list_mechanic.xml" value="0.21927083333333333" />
+        <entry key="..\:/--- STUFF ---/Work/Coding/Andriod Studio/Prototype/Manage_Proto/app/src/main/res/layout/activity_list_service.xml" value="0.21927083333333333" />
+        <entry key="..\:/--- STUFF ---/Work/Coding/Andriod Studio/Prototype/Manage_Proto/app/src/main/res/layout/activity_main.xml" value="0.21927083333333333" />
+        <entry key="..\:/--- STUFF ---/Work/Coding/Andriod Studio/Prototype/Manage_Proto/app/src/main/res/layout/activity_manage.xml" value="0.21927083333333333" />
+        <entry key="..\:/--- STUFF ---/Work/Coding/Andriod Studio/Prototype/Manage_Proto/app/src/main/res/layout/activity_manage_coupon.xml" value="0.21927083333333333" />
+        <entry key="..\:/--- STUFF ---/Work/Coding/Andriod Studio/Prototype/Manage_Proto/app/src/main/res/layout/activity_manage_package.xml" value="0.21927083333333333" />
+        <entry key="..\:/--- STUFF ---/Work/Coding/Andriod Studio/Prototype/Manage_Proto/app/src/main/res/layout/activity_manage_service.xml" value="0.21927083333333333" />
+        <entry key="..\:/--- STUFF ---/Work/Coding/Andriod Studio/Prototype/Manage_Proto/app/src/main/res/layout/activity_manage_service_activty.xml" value="0.20208333333333334" />
+        <entry key="..\:/--- STUFF ---/Work/Coding/Andriod Studio/Prototype/Manage_Proto/app/src/main/res/layout/activity_manage_slot.xml" value="0.21927083333333333" />
+        <entry key="..\:/--- STUFF ---/Work/Coding/Andriod Studio/Prototype/Manage_Proto/app/src/main/res/layout/activity_mechanic_display.xml" value="0.21927083333333333" />
         <entry key="..\:/--- STUFF ---/Work/Coding/Andriod Studio/Prototype/Manage_Proto/app/src/main/res/layout/activity_splash.xml" value="0.21927083333333333" />
+        <entry key="..\:/--- STUFF ---/Work/Coding/Andriod Studio/Prototype/Manage_Proto/app/src/main/res/layout/activity_tws_check_list.xml" value="0.21927083333333333" />
+        <entry key="..\:/--- STUFF ---/Work/Coding/Andriod Studio/Prototype/Manage_Proto/app/src/main/res/layout/activity_tws_company.xml" value="0.21927083333333333" />
+        <entry key="..\:/--- STUFF ---/Work/Coding/Andriod Studio/Prototype/Manage_Proto/app/src/main/res/layout/activity_tws_pricing.xml" value="0.20208333333333334" />
+        <entry key="..\:/--- STUFF ---/Work/Coding/Andriod Studio/Prototype/Manage_Proto/app/src/main/res/layout/add_coupon.xml" value="0.20199275362318841" />
+        <entry key="..\:/--- STUFF ---/Work/Coding/Andriod Studio/Prototype/Manage_Proto/app/src/main/res/layout/add_slot.xml" value="0.5" />
+        <entry key="..\:/--- STUFF ---/Work/Coding/Andriod Studio/Prototype/Manage_Proto/app/src/main/res/layout/add_tws_check.xml" value="0.67" />
+        <entry key="..\:/--- STUFF ---/Work/Coding/Andriod Studio/Prototype/Manage_Proto/app/src/main/res/layout/card_assign_mechanic.xml" value="0.5" />
+        <entry key="..\:/--- STUFF ---/Work/Coding/Andriod Studio/Prototype/Manage_Proto/app/src/main/res/layout/card_booking.xml" value="0.2171875" />
+        <entry key="..\:/--- STUFF ---/Work/Coding/Andriod Studio/Prototype/Manage_Proto/app/src/main/res/layout/card_checklist.xml" value="0.21927083333333333" />
+        <entry key="..\:/--- STUFF ---/Work/Coding/Andriod Studio/Prototype/Manage_Proto/app/src/main/res/layout/card_company.xml" value="0.5" />
+        <entry key="..\:/--- STUFF ---/Work/Coding/Andriod Studio/Prototype/Manage_Proto/app/src/main/res/layout/card_coupon.xml" value="0.21927083333333333" />
+        <entry key="..\:/--- STUFF ---/Work/Coding/Andriod Studio/Prototype/Manage_Proto/app/src/main/res/layout/card_delete.xml" value="0.21927083333333333" />
+        <entry key="..\:/--- STUFF ---/Work/Coding/Andriod Studio/Prototype/Manage_Proto/app/src/main/res/layout/card_manage_package.xml" value="0.20199275362318841" />
+        <entry key="..\:/--- STUFF ---/Work/Coding/Andriod Studio/Prototype/Manage_Proto/app/src/main/res/layout/card_manage_service.xml" value="0.33" />
+        <entry key="..\:/--- STUFF ---/Work/Coding/Andriod Studio/Prototype/Manage_Proto/app/src/main/res/layout/card_price.xml" value="0.5" />
+        <entry key="..\:/--- STUFF ---/Work/Coding/Andriod Studio/Prototype/Manage_Proto/app/src/main/res/layout/card_service.xml" value="0.21927083333333333" />
+        <entry key="..\:/--- STUFF ---/Work/Coding/Andriod Studio/Prototype/Manage_Proto/app/src/main/res/layout/card_slot.xml" value="0.67" />
+        <entry key="..\:/--- STUFF ---/Work/Coding/Andriod Studio/Prototype/Manage_Proto/app/src/main/res/layout/card_tws_checkList.xml" value="0.67" />
+        <entry key="..\:/--- STUFF ---/Work/Coding/Andriod Studio/Prototype/Manage_Proto/app/src/main/res/layout/card_tws_checklist.xml" value="0.21927083333333333" />
+        <entry key="..\:/--- STUFF ---/Work/Coding/Andriod Studio/Prototype/Manage_Proto/app/src/main/res/layout/custom_progress.xml" value="0.2171875" />
+        <entry key="..\:/--- STUFF ---/Work/Coding/Andriod Studio/Prototype/Manage_Proto/app/src/main/res/layout/select_brand_dialog.xml" value="0.21927083333333333" />
+        <entry key="..\:/--- STUFF ---/Work/Coding/Andriod Studio/Prototype/Manage_Proto/app/src/main/res/layout/tw_brand_card.xml" value="0.21927083333333333" />
+        <entry key="..\:/--- STUFF ---/Work/Coding/Andriod Studio/Prototype/Manage_Proto/app/src/main/res/menu/main_menu.xml" value="0.21927083333333333" />
         <entry key="..\:/--- STUFF ---/Work/Coding/Project/Geartocare_Manage_Mechanic/app/src/main/res/drawable-anydpi/cursor.xml" value="0.23958333333333334" />
         <entry key="..\:/--- STUFF ---/Work/Coding/Project/Geartocare_Manage_Mechanic/app/src/main/res/drawable-anydpi/ic_cross.xml" value="0.23958333333333334" />
         <entry key="..\:/--- STUFF ---/Work/Coding/Project/Geartocare_Manage_Mechanic/app/src/main/res/drawable-anydpi/ic_current_location.xml" value="0.23958333333333334" />

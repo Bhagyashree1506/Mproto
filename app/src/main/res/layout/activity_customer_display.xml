@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/drawer_layout_ninja"
-    tools:context="com.manage.app.CustomerDisplayActivity"
+    tools:context="com.manage.app.Activities.CustomerDisplayActivity"
     android:fitsSystemWindows="true"
     tools:openDrawer="start">
 
@@ -96,14 +96,14 @@
                     android:textSize="20sp" />
 
                 <com.google.android.material.textfield.TextInputLayout
-                    android:id="@+id/FirstNameCustomerDisplay"
+                    android:id="@+id/FullNameCustomerDisplay"
                     style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:hint="First Name">
+                    android:hint="Full Name">
 
                     <com.google.android.material.textfield.TextInputEditText
-                        android:id="@+id/FirstNameRegister"
+                        android:id="@+id/FullNameRegister"
                         android:layout_width="match_parent"
 
                         android:layout_height="wrap_content"
@@ -114,25 +114,6 @@
                 </com.google.android.material.textfield.TextInputLayout>
 
 
-                <!--User Name-->
-                <com.google.android.material.textfield.TextInputLayout
-                    android:id="@+id/LastNameCustomerDisplay"
-                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-
-                    android:hint="Last Name">
-
-
-                    <com.google.android.material.textfield.TextInputEditText
-                        android:id="@+id/LastNameRegister"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:clickable="false"
-                        android:editable="false"
-                        android:focusable="false" />
-
-                </com.google.android.material.textfield.TextInputLayout>
 
 
                 <!--Email-->

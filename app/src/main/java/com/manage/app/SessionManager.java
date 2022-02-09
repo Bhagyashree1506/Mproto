@@ -8,7 +8,7 @@ import java.util.HashMap;
 public class SessionManager {
 
     SharedPreferences usersSession;
-    SharedPreferences.Editor editor;
+    public SharedPreferences.Editor editor;
     Context context;
     public static  final String VERSION = "version";
     public static  final String IS_LOGIN = "IsLoggedIn";
@@ -17,8 +17,16 @@ public class SessionManager {
     public static  final String KEY_EMAIL = "email";
     public static  final String KEY_PHONENUMBER = "phoneNumber";
     public static  final String KEY_PASSWORD = "password";
+    public static  final String KEY_TOKEN = "password";
 
 
+    public SharedPreferences.Editor getEditor() {
+        return editor;
+    }
+
+    public void setEditor(SharedPreferences.Editor editor) {
+        this.editor = editor;
+    }
 
     public SessionManager(Context _context){
         context = _context;

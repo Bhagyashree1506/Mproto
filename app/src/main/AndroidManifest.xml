@@ -2,6 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.manage.app">
 
+    <uses-permission android:name="android.permission.VIBRATE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.INTERNET" />
@@ -18,63 +19,93 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
         <activity
-            android:name="com.manage.app.CheckManagerActivity"
+            android:name=".Activities.TwsCompanyActivity"
             android:exported="false" />
         <activity
-            android:name="com.manage.app.SelectLocationActivity"
+            android:name=".Activities.TwsPricingActivity"
             android:exported="false" />
         <activity
-            android:name="com.manage.app.PlacePickerActivity"
+            android:name=".Activities.TwsCheckListActivity"
             android:exported="false" />
         <activity
-            android:name="com.manage.app.GenerateImageActivity"
+            android:name=".Activities.EditTwsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.ManageServiceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.ManagePackageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.ManageSlotActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.ManageCouponActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.ManageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.CustomerVehicleActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.CheckManagerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.SelectLocationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.PlacePickerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.GenerateImageActivity"
             android:exported="true" />
         <activity
-            android:name="com.manage.app.EditMechanicDetailActivity"
+            android:name=".Activities.EditMechanicDetailActivity"
             android:exported="true" />
         <activity
-            android:name="com.manage.app.EditCustomerDetails"
+            android:name=".Activities.EditCustomerDetails"
             android:exported="true" />
         <activity
-            android:name="com.manage.app.ImageViewerActivity"
+            android:name=".Activities.ImageViewerActivity"
             android:exported="true" />
         <activity
-            android:name="com.manage.app.ServiceImagesActivity"
+            android:name=".Activities.ServiceImagesActivity"
             android:exported="true" />
         <activity
-            android:name="com.manage.app.ServiceAssignedActivity"
+            android:name=".Activities.ServiceAssignedActivity"
             android:exported="true" />
         <activity
-            android:name="com.manage.app.ServiceApprovalActivity"
+            android:name=".Activities.ServiceApprovalActivity"
             android:exported="true" />
-        <activity android:name="com.manage.app.ListAssignMechanicActivity" />
-        <activity android:name="com.manage.app.ListMechanicActivity" />
-        <activity android:name="com.manage.app.MechanicDisplayActivity" />
-        <activity android:name="com.manage.app.MechanicRegisterActivity" />
+        <activity android:name=".Activities.ListAssignMechanicActivity" />
+        <activity android:name=".Activities.ListMechanicActivity" />
+        <activity android:name=".Activities.MechanicDisplayActivity" />
+        <activity android:name=".Activities.MechanicRegisterActivity" />
         <activity
-            android:name="com.manage.app.MechanicActivity"
+            android:name=".Activities.MechanicActivity"
             android:windowSoftInputMode="stateHidden" />
-        <activity android:name="com.manage.app.BookingDetailActivity" />
-        <activity android:name="com.manage.app.TodaysBookingActivity" />
-        <activity android:name="com.manage.app.ListServiceActivity" />
-        <activity android:name="com.manage.app.CustomerRegisterActivity" />
-        <activity android:name="com.manage.app.CustomerServiceActivity" />
-        <activity android:name="com.manage.app.CustomerDisplayActivity" />
-        <activity android:name="com.manage.app.ListCustomerActivity">
+        <activity android:name=".Activities.BookingDetailActivity" />
+        <activity android:name=".Activities.TodaysBookingActivity" />
+        <activity android:name=".Activities.ListServiceActivity" />
+        <activity android:name=".Activities.CustomerRegisterActivity" />
+        <activity android:name=".Activities.CustomerServiceActivity" />
+        <activity android:name=".Activities.CustomerDisplayActivity" />
+        <activity android:name=".Activities.ListCustomerActivity">
             android:screenOrientation="portrait"
         </activity>
         <activity
-            android:name="com.manage.app.resetPasswordActivity"
+            android:name=".Activities.resetPasswordActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.manage.app.VerifyPhoneNo"
+            android:name=".Activities.VerifyPhoneNo"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.manage.app.CustomerActvity"
+            android:name=".Activities.CustomerActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden" />
         <activity
-            android:name="com.manage.app.SplashActivity"
+            android:name=".Activities.SplashActivity"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -83,24 +114,24 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.manage.app.UserProfileActivity"
+            android:name=".Activities.UserProfileActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.manage.app.ForgotPasswordActivity"
+            android:name=".Activities.ForgotPasswordActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name="com.manage.app.RegisterActivity"
+            android:name=".Activities.RegisterActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.manage.app.LoginActivity"
+            android:name=".Activities.LoginActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateVisible|adjustResize" />
         <activity
-            android:name="com.manage.app.StartActivity"
+            android:name=".Activities.StartActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.manage.app.MainActivity"
+            android:name=".Activities.MainActivity"
             android:screenOrientation="portrait" />
 
         <meta-data
@@ -112,6 +143,14 @@
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key" />
+
+        <service
+            android:name=".Notifications.FirebaseMessagingService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
     </application>
 
 </manifest>

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/drawer_layout_ninja"
-    tools:context="com.manage.app.TodaysBookingActivity"
+    tools:context="com.manage.app.Activities.TodaysBookingActivity"
     android:fitsSystemWindows="true"
     tools:openDrawer="start">
 
@@ -59,7 +59,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Services on hold"
+                android:text="Services On_Hold"
                 android:fontFamily="@font/montserrat"
                 android:textColor="@color/black"
                 android:textSize="26sp"
